@@ -73,6 +73,6 @@ if item_drop then
 end
 
 if minetest.setting_get("log_mods") then
-	minetest.log("action", "[item_drop[ Loaded.")
+	minetest.log("action", "[item_drop] Loaded.")
 	minetest.log("action", "[item_drop] Node drops items: " .. tostring(item_drop) .. ".")
 end
